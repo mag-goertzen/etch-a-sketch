@@ -11,9 +11,9 @@ for (let i = 0; i < gridWidth; i++){
         let gridCell = document.createElement('div');
         gridCell.classList = 'gridCell';
         //gridCell.style.backgroundColor = 'white';
-        gridCell.style.border = 'thin solid';
+        //gridCell.style.border = 'thin solid';
         gridCell.style.display = 'inline-block';
-        gridCell.style.padding = '10px';
+        gridCell.style.padding = '30px';
         gridRow.appendChild(gridCell);
     }
     container.appendChild(gridRow);  
