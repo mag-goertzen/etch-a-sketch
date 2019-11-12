@@ -9,7 +9,10 @@ for (let i = 0; i < gridWidth; i++){
     for (let n = 1; n <= gridHeight; n++){
         let gridCell = document.createElement('div');
         gridCell.classList = 'gridCell';
+        gridCell.style.backgroundColor = 'red';
         gridCell.style.border = 'solid';
+        gridCell.style.display = 'inline-block';
+        gridCell.style.padding = '10px';
         gridRow.appendChild(gridCell);
     }
     container.appendChild(gridRow);  
