@@ -1,5 +1,7 @@
-let trail = document.querySelector('#container');
+var gridCells = document.querySelectorAll('.gridCell');
 
-trail.addEventListener('hover', function(e){
-    e.target.style.background = 'black';
+gridCells.forEach((gridCell) => {
+    gridCell.addEventListener('mouseenter', function(e){
+        e.target.style.backgroundColor = 'black';
+    })
 })

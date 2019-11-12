@@ -10,7 +10,7 @@ for (let i = 0; i < gridWidth; i++){
     for (let n = 1; n <= gridHeight; n++){
         let gridCell = document.createElement('div');
         gridCell.classList = 'gridCell';
-        gridCell.style.backgroundColor = 'white';
+        //gridCell.style.backgroundColor = 'white';
         gridCell.style.border = 'thin solid';
         gridCell.style.display = 'inline-block';
         gridCell.style.padding = '10px';
