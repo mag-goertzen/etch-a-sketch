@@ -1,0 +1,1 @@
+This is my 'Etch a Sketch' project! It will utilize DOM manipulation.
