@@ -1,6 +1,8 @@
 const container = document.querySelector('#container');
 
 let gridWidth = 16;
+let cellWidth = (960/gridWidth);
+let cellPx = cellWidth.toString()+'px';
 let gridHeight = 16;
 
 for (let i = 0; i < gridWidth; i++){
@@ -13,7 +15,8 @@ for (let i = 0; i < gridWidth; i++){
         //gridCell.style.backgroundColor = 'white';
         //gridCell.style.border = 'thin solid';
         gridCell.style.display = 'inline-block';
-        gridCell.style.padding = '10px';
+        gridCell.style.width = cellPx;
+        gridCell.style.height = gridCell.style.width;
         gridRow.appendChild(gridCell);
     }
     container.appendChild(gridRow);  
