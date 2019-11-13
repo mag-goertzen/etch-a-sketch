@@ -13,7 +13,7 @@ for (let i = 0; i < gridWidth; i++){
         //gridCell.style.backgroundColor = 'white';
         //gridCell.style.border = 'thin solid';
         gridCell.style.display = 'inline-block';
-        gridCell.style.padding = '30px';
+        gridCell.style.padding = '10px';
         gridRow.appendChild(gridCell);
     }
     container.appendChild(gridRow);  
