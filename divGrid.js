@@ -22,4 +22,12 @@ for (let i = 0; i < gridWidth; i++){
     container.appendChild(gridRow);  
 }
 
+var gridCells = document.querySelectorAll('.gridCell');
+
+    gridCells.forEach((gridCell) => {
+        gridCell.addEventListener('mouseenter', function(e){
+            let bgColor = 'rgb(0,0,0)';
+            e.target.style.backgroundColor = bgColor;
+        })
+    }) 
 
