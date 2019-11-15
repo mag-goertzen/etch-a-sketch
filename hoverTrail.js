@@ -3,7 +3,7 @@
 function hoverTrail(userMode){
 
     //Search for all of the class items named: gridCell
-    var gridCells = document.querySelectorAll('.gridCell');
+    let gridCells = document.querySelectorAll('.gridCell');
 
     //For each grid cell, if the mouse enters the cell change its color.
     gridCells.forEach((gridCell) => {

@@ -9,7 +9,7 @@ hoverTrail('blackBrush');
 let colorBrush = document.querySelector('#colorBrush');
 colorBrush.addEventListener('click', function(){ 
     
-    gridGenerator(gridWidth, gridWidth);  
+    //gridGenerator(gridWidth, gridWidth);  
     hoverTrail('colorBrush');
 });
 
@@ -17,7 +17,7 @@ colorBrush.addEventListener('click', function(){
 const blackBrush = document.querySelector('#blackBrush');
 blackBrush.addEventListener('click', function(){
     
-    gridGenerator(gridWidth, gridWidth);
+    //gridGenerator(gridWidth, gridWidth);
     hoverTrail('blackBrush');
 });
 
@@ -25,7 +25,7 @@ blackBrush.addEventListener('click', function(){
 const opacityBrush = document.querySelector('#opacityBrush');
 opacityBrush.addEventListener('click',function(){
     
-    gridGenerator(gridWidth,gridWidth);
+    //gridGenerator(gridWidth,gridWidth);
     hoverTrail('opacityBrush');
 });
 
